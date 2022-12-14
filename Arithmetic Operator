@@ -1,0 +1,27 @@
+Write a C program to do an Arithmetic Operators.
+
+Input Format: 
+
+Input consists of two integers 
+
+Output Format:
+
+Output consist of integers
+
+
+Coding
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin >>a;
+    cin >>b;
+    cout <<a<<" + "<<b<<" = "<<a+b<<endl;
+    cout <<a<<" - "<<b<<" = "<<a-b<<endl;
+    cout <<a<<" * "<<b<<" = "<<a*b<<endl;
+    cout <<a<<" / "<<b<<" = "<<a/b<<endl;
+    cout <<a<<" % "<<b<<" = "<<a%b<<endl; 
+    return 0;
+}

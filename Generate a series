@@ -1,0 +1,30 @@
+Write a program to generate the following series – 7, 5, 8, 6,  9….
+
+Sample Input:
+5
+
+Sample Output:
+
+7 5 8 6 9
+
+Coding
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+     int i,a=5,b=7;
+     int n;
+     cin>>n;
+     for(i=0;i<n;i++)
+     {
+         if(i%2==1)
+         {
+         cout<<a++<<" ";}
+         else
+         {cout<<b++<<" ";}
+     }
+
+     
+}             

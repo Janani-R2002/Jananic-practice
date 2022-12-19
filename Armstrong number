@@ -1,0 +1,35 @@
+Write a C program to find whether the given number is Armstrong number or not.
+
+Sample Input:
+
+153
+
+Sample Output:
+
+Armstrong Number
+
+Coding
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n,n1,n2,n3,a,b,c,s;
+    cin>>n;
+    n1=n/100;
+    n2=(n/10)%10;
+    n3=n%10;
+    a=pow(n1,3);
+    b=pow(n2,3);
+    c=pow(n3,3);
+    s=a+b+c;
+    if(s==n)
+    {
+        cout<<"Armstrong Number";
+    }
+    else
+    {
+        cout<<"Not an Armstrong Number";
+    }
+}
